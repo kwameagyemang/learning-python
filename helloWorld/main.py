@@ -1,3 +1,4 @@
+import time
 # slicing = create a substring by extracting elements from another string
 # indexing[] or slice()
 # [start:stop:step]
@@ -39,11 +40,41 @@
 # not---when both conditions are true
 # or--when one condition is true
 # not---change true to false or false to true
-temp = int(input('What is the temperature outside?: '))
+# temp = int(input('What is the temperature outside?: '))
+#
+# if not(temp >= 0 and temp <= 30):
+#     print('the temperature is  bad today')
+#     print('stay  inside!')
+# elif not(temp < 0 or temp > 30):
+#     print('the temperature is good today')
+#     print('go outside!')
 
-if not(temp >= 0 and temp <= 30):
-    print('the temperature is  bad today')
-    print('stay  inside!')
-elif not(temp < 0 or temp > 30):
-    print('the temperature is good today')
-    print('go outside!')
+# ------while loop-----
+# name = ''
+#
+# while len(name) == 0:
+#     name = input('enter your name: ')
+#
+# print('Hello '+name)
+
+# -----For Loop-----
+
+# for i in range(10):
+#     print(i+1)
+
+# for i in range(50,100+1,5):
+#     print(i)
+
+# for i in "kwame agyemang":
+#     print(i)
+
+# for seconds in range(10,0,-1):
+#     print(seconds)
+#     time.sleep(2)
+# print('happy new year!')
+
+
+
+
+
+
